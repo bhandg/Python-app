@@ -19,6 +19,7 @@ pipeline{
         stage('build'){
             steps{
                 echo " build using maven"
+                echo " build created"
             }
         }
         stage('test'){
