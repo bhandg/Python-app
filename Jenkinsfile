@@ -13,6 +13,7 @@ pipeline{
             steps{
                 script{
                     clone("https://github.com/bhandg/Python-app.git","dev")
+                    sh "mkdir myfile"
                 }
             }
         }
